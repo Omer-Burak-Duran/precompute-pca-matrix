@@ -1,0 +1,9 @@
+# NOTE: Install PyTorch with the CUDA-specific index BEFORE using this file, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+# This requirements.txt intentionally omits torch/torchvision to avoid pulling a CPU wheel by accident.
+
+open_clip_torch>=2.24.0
+pillow>=10.3.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+numpy>=1.26.0
